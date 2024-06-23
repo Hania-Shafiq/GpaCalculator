@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="600.0" maxWidth="600.0" minHeight="600.0" minWidth="600.0" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #FAF0DC;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TextField fx:id="numSubjectsTextField" alignment="CENTER" layoutX="366.0" layoutY="74.0" prefHeight="22.0" prefWidth="142.0" promptText="Enter no of subjects" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font></TextField>
+      <Label layoutX="271.0" layoutY="74.0" prefHeight="22.0" prefWidth="87.0" style="-fx-background-color: #FFFFFF;" text="No. Of Subjects: " textFill="#5d4037">
+         <font>
+            <Font name="Times New Roman" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="520.0" layoutY="74.0" mnemonicParsing="false" onAction="#enterMarks" prefHeight="11.0" prefWidth="66.0" style="-fx-background-color: #FFFFFF;" text="Enter " textFill="#5d4037">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <GridPane fx:id="marksGridPane" layoutX="315.0" layoutY="131.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="143.6666259765625" minWidth="10.0" prefWidth="143.6666259765625" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="112.3333740234375" minWidth="10.0" prefWidth="90.3333740234375" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <Button layoutX="411.0" layoutY="480.0" mnemonicParsing="false" onAction="#calculateGPA" prefHeight="13.0" prefWidth="79.0" style="-fx-background-color: #ffffff;" text="Calculate Gpa" textFill="#5d4037">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <ImageView fitHeight="611.0" fitWidth="284.0" layoutX="-19.0" layoutY="-10.0">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/gpa%20table.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="resultLabel" layoutX="306.0" layoutY="510.0" prefHeight="37.0" prefWidth="277.0" style="-fx-background-color: #ffffff;" text="Calculated Gpa:" textFill="#5d4037" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="-75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/logo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="191.0" layoutX="344.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/heading.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="87.0" layoutX="84.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/Saved%20Pictures/logo1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
