@@ -8,9 +8,9 @@ GpaProject
         
         ├── Main.java
         
-        ├── application.css
+           ├── application.css
         
-        └── Main.fxml
+           └── Main.fxml
         
         
 # GPA Calculator - JavaFX
