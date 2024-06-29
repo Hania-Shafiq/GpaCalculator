@@ -1,11 +1,17 @@
 # GpaCalculator
 GpaProject
 └── src
+
     └── application
+    
         ├── Controller.java
+        
         ├── Main.java
+        
         ├── application.css
+        
         └── Main.fxml
+        
         
 # GPA Calculator - JavaFX
 
