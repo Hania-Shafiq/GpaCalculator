@@ -8,7 +8,7 @@ GpaProject
         
         ├── Main.java
         
-           ├── application.css
+           └── application.css
         
            └── Main.fxml
         
